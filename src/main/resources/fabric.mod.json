@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "realistic_liquids",
+  "version": "1.0.0",
+  "name": "Realistic Liquids Mod",
+  "description": "Adds realistic water and lava physics with shaders, particles, and custom crafting recipes.",
+  "authors": ["Lev404404"],
+  "contact": {
+    "homepage": "https://github.com/Lev404404/realistic-liquids-mod",
+    "sources": "https://github.com/Lev404404/realistic-liquids-mod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.lev404404.realisticliquids.RealisticLiquidsMod"],
+    "client": ["com.lev404404.realisticliquids.client.RealisticLiquidsClient"]
+  },
+  "mixins": ["realistic_liquids.mixins.json", "realistic_liquids_client.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "java": ">=17"
+  }
+}

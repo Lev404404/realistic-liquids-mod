@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LWL",
+    "LLL"
+  ],
+  "key": {
+    "W": {"item": "minecraft:water_bucket"},
+    "L": {"item": "minecraft:lapis_lazuli"}
+  },
+  "result": {
+    "item": "realistic_liquids:realistic_water_bucket",
+    "count": 1
+  }
+}

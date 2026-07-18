@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.lev404404.realisticliquids.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "client": ["LiquidRendererMixin"],
+  "injectors": {"defaultRequire": 1}
+}

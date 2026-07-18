@@ -1,0 +1,2 @@
+accessible field net/minecraft/world/World nextTickListEntry Ljava/util/List;
+accessible field net/minecraft/block/Block resistance F
